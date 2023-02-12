@@ -1,0 +1,73 @@
+.overlay-body {
+    width: 65%;
+    z-index: 3;
+    position: absolute;
+    bottom: 80px;
+    height: 280px;
+    border-radius: 20px!important;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
+    .tabs-view {
+        padding: 15px;
+
+        .tab-panel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .input-group {
+                display: flex;
+                width: 90%;
+                justify-content: space-between;
+
+
+                .input-container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    i {
+                        font-size: 20px;
+                        margin-right: 20px;
+                        margin-bottom: 23px;
+                        color: grey;
+                    }
+
+                    .group-text {
+                        margin-bottom: 20px;
+
+                        h1 {
+                            margin-bottom: 0%;
+                            font-size: 27px;
+                        }
+
+                        .input-text {
+                            border: none;
+                            padding: 0;
+                            color: grey;
+                            font-weight: 400;
+                        }
+
+                        .input-calendar {
+                            .p-inputtext {
+                                border: none;
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.p-tabview-panels {
+    margin-top: 30px;
+}
+
+.p-button-rounded {
+    width: 60px!important;
+    height: 60px!important;
+}
